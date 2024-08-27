@@ -1,0 +1,177 @@
+.landing-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f9ff;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #001331;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+  height: 50px;
+}
+
+.top-bar .logo img {
+  height: 40px;
+  width: 150px;
+  margin-right: 100px;
+  flex: 1;
+}
+
+.top-bar-nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.top-bar-nav button {
+  background: #001331;
+  border: none;
+  color: #006687;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 35px;
+}
+
+.top-bar-nav button:hover {
+  background: #006687;
+  color: #000;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+.landing-page-hero {
+  background-image: url("./assets/headerBackgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 130vh;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* align-self: center; */
+  width: 100%;
+  margin-top: 70px;
+  padding-top: 40px;
+}
+
+.landing-page-hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.landing-page-hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.landing-page-hero button {
+  background-color: #0044cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.landing-page-hero button:hover {
+  background-color: #0033a0;
+}
+
+.landing-page-section {
+  display: flex;
+  padding: 30px 20px;
+}
+
+.landing-page-section h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  justify-content: center;
+  padding: 35px 0px;
+}
+
+.section-service-image {
+  background-image: url("./assets/service.jpg");
+}
+
+.section-testimonials-image {
+  background-image: url("./assets/customer.png");
+}
+
+.section-about-image {
+  background-image: url("./assets/about.jpg");
+}
+
+.section-contact-image {
+  background-image: url("./assets/air.jpg");
+}
+
+.section-timeline-image {
+  background-image: url("./assets/timeline.jpg");
+}
+
+.cloud-box {
+  background-color: #f0f9ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 550px;
+}
+
+.cloud-box-content {
+  flex: content;
+  padding: 10px 20px;
+}
+
+.cloud-box-image {
+  flex: auto;
+  border-radius: 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* margin-right: 150px; */
+}
+
+.social-media-icons button {
+  background-color: #001331;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social-media-icons button:hover {
+  background-color: #006687;
+}
+
+.bottom-bar {
+  background-color: #001331;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.phone-numbers-list {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0;
+}
+
+.phone-numbers-list li {
+  margin-bottom: 10px; /* Adds space between the list items */
+}
