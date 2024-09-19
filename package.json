@@ -2,8 +2,11 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://yellow-company.github.io/Al-Aqwa",
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
+    "@mdi/js": "^7.4.47",
+    "@mdi/react": "^1.6.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

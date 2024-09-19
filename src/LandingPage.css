@@ -1,9 +1,15 @@
+* {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .landing-page {
   font-family: Arial, sans-serif;
   color: #333;
   margin: 0;
   padding: 0;
   background-color: #f0f9ff;
+  /* font-size: 15px; */
 }
 
 .top-bar {
@@ -14,15 +20,16 @@
   color: #fff;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 10px;
   z-index: 1000;
-  height: 50px;
+  height: 60px; /* Adjusted for better mobile view */
+  flex-wrap: wrap; /* Allows wrapping on small screens */
 }
 
 .top-bar .logo img {
   height: 40px;
-  width: 150px;
-  margin-right: 100px;
+  width: auto; /* Change to auto for better responsiveness */
+  margin-right: 3px;
   flex: 1;
 }
 
@@ -30,48 +37,49 @@
   display: flex;
   flex: 1;
   justify-content: space-around;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
 }
 
 .top-bar-nav button {
   background: #001331;
   border: none;
-  color: #006687;
-  font-size: 16px;
+  color: hsl(195, 90%, 73%);
+  font-size: 12px; /* Slightly smaller font size for mobile */
   cursor: pointer;
-  padding: 15px 35px;
+  padding: 5px;
+  margin: 5px; /* Add some margin between buttons */
 }
 
 .top-bar-nav button:hover {
   background: #006687;
   color: #000;
   font-weight: 700;
-  border-radius: 50%;
+  border-radius: 5px;
 }
 
 .landing-page-hero {
   background-image: url("./assets/headerBackgroundImage.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 130vh;
+  background-size: auto;
+  /* background-position: center; */
+  background-repeat: round;
+  height: 25vh; /* Adjusted height for mobile */
   text-align: center;
   color: #fff;
   display: flex;
   flex-direction: column;
-  /* align-self: center; */
-  width: 100%;
+  /* width: 100%; */
   margin-top: 70px;
-  padding-top: 40px;
+  padding: 20px; /* Adjusted padding */
 }
 
 .landing-page-hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+  font-size: 0.7em; /* Adjusted for mobile */
+  margin-top: -10px;
 }
 
 .landing-page-hero p {
-  font-size: 1.2em;
-  margin-bottom: 30px;
+  font-size: 0.7em; /* Adjusted for mobile */
+  /* margin-bottom: 20px; */
 }
 
 .landing-page-hero button {
@@ -83,95 +91,165 @@
   font-size: 1em;
 }
 
-.landing-page-hero button:hover {
-  background-color: #0033a0;
-}
-
 .landing-page-section {
   display: flex;
-  padding: 30px 20px;
+  flex-direction: column; /* Stack elements vertically */
+  padding: 0px; /* Reduced padding for mobile */
 }
 
 .landing-page-section h3 {
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 1.3em; /* Adjusted for mobile */
+  margin-bottom: 15px;
   justify-content: center;
-  padding: 35px 0px;
-}
-
-.section-service-image {
-  background-image: url("./assets/service.jpg");
-}
-
-.section-testimonials-image {
-  background-image: url("./assets/customer.png");
-}
-
-.section-about-image {
-  background-image: url("./assets/about.jpg");
-}
-
-.section-contact-image {
-  background-image: url("./assets/air.jpg");
-}
-
-.section-timeline-image {
-  background-image: url("./assets/timeline.jpg");
 }
 
 .cloud-box {
   background-color: #f0f9ff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 550px;
+  height: auto; /* Allow automatic height */
+  margin-bottom: 20px; /* Add space between sections */
 }
 
 .cloud-box-content {
-  flex: content;
-  padding: 10px 20px;
+  padding: 10px 15px; /* Adjusted padding */
+  font-size: 0.8em; /* Adjusted for mobile */
 }
 
 .cloud-box-image {
   flex: auto;
-  border-radius: 60px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  /* border-radius: 60px; */
+  background-size: auto;
+  /* background-position: center; */
+  background-repeat: round;
 }
 
-.social-media-icons {
+.social-media-icons-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /* Center social media icons */
   margin-top: 20px;
-  /* margin-right: 150px; */
 }
 
-.social-media-icons button {
-  background-color: #001331;
+.contact-section h3 {
+  display: flex;
+  justify-items: center;
+}
+.section-timeline-image {
+  background-image: url("./assets/timeline2.jpg");
+  /* border: red 2px solid; */
+  height: 18vh;
+  /* width: 90vh; */
+  margin-bottom: 0;
+}
+
+.follow-box {
+  justify-content: space-between;
+}
+
+.icon-container {
+  justify-content: space-around;
+  display: flex;
+  /* margin-top: 20px; */
+  align-items: center;
+}
+.social-media-icons-container button {
+  background-color: #f0f9ff;
   border: none;
-  color: #fff;
+  color: #e62222;
   font-size: 1.5em;
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
+  margin: 0 15px; /*Add space between buttons*/
+  height: 45px;
+  background-color: rgb(215, 236, 255);
+}
+.fb-icon button {
+  color: #0c58bb;
 }
 
-.social-media-icons button:hover {
-  background-color: #006687;
+.ig-icon button {
+  color: #ff4c4c;
+  padding: 5px;
 }
 
+.tiktok-icon button {
+  color: #000;
+}
 .bottom-bar {
   background-color: #001331;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 0;
+  margin-top: 10px;
   padding: 10px;
+}
+.bottom-bar p {
+  /* border: #e62222 solid 2px; */
+  padding: 7px;
+  font-size: 12px;
+  margin: 0;
 }
 
 .phone-numbers-list {
-  list-style-type: none; /* Removes default bullet points */
-  padding: 0;
+  list-style-type: none;
+  padding-left: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
 }
 
 .phone-numbers-list li {
-  margin-bottom: 10px; /* Adds space between the list items */
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  text-decoration: none;
+  /* border: #000 solid 2px; */
 }
+.custom-bullet {
+  margin-right: 8px; /* Space between bullet and text */
+}
+
+.phone-button {
+  margin-left: 30px; /* space between number and icon */
+  text-decoration: none;
+  color: inherit; /* inherit text color */
+  display: inline-flex; /* to align icon properly */
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.phone-icon {
+  font-size: 1.2em; /* adjust size as needed */
+  background-color: rgb(215, 236, 255);
+  border-radius: 50%;
+  padding: 5px 7px;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .top-bar-nav button {
+    flex: 1; Allow buttons to take equal space
+    margin: 5px 0; Margin for vertical stacking
+    font-size: 10px;
+  }
+
+  .landing-page-hero h2 {
+    font-size: 1.8em; Smaller font size
+  }
+
+  .landing-page-hero p {
+    font-size: 0.9em; Smaller font size
+  }
+
+  .landing-page-section {
+    padding: 10px; Further reduced for smaller screens
+  }
+
+  .landing-page-section h3 {
+    font-size: 1.5em; Smaller font size
+  }
+} */
