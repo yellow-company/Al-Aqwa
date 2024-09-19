@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Al-Aqwa/static/css/main.c1260a06.css",
-    "main.js": "/Al-Aqwa/static/js/main.f50ed739.js",
+    "main.js": "/Al-Aqwa/static/js/main.a45e5355.js",
     "static/js/453.7ee4257d.chunk.js": "/Al-Aqwa/static/js/453.7ee4257d.chunk.js",
     "static/media/headerBackgroundImage.jpg": "/Al-Aqwa/static/media/headerBackgroundImage.d75599a4ceec32f1d1f7.jpg",
     "static/media/timeline2.jpg": "/Al-Aqwa/static/media/timeline2.c72f77b59a6be7fcfc14.jpg",
     "index.html": "/Al-Aqwa/index.html",
     "main.c1260a06.css.map": "/Al-Aqwa/static/css/main.c1260a06.css.map",
-    "main.f50ed739.js.map": "/Al-Aqwa/static/js/main.f50ed739.js.map",
+    "main.a45e5355.js.map": "/Al-Aqwa/static/js/main.a45e5355.js.map",
     "453.7ee4257d.chunk.js.map": "/Al-Aqwa/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1260a06.css",
-    "static/js/main.f50ed739.js"
+    "static/js/main.a45e5355.js"
   ]
 }
