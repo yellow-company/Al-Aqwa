@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Al-Aqwa/static/css/main.e22f943b.css",
-    "main.js": "/Al-Aqwa/static/js/main.a45e5355.js",
+    "main.js": "/Al-Aqwa/static/js/main.f50ed739.js",
     "static/js/453.7ee4257d.chunk.js": "/Al-Aqwa/static/js/453.7ee4257d.chunk.js",
     "static/media/headerBackgroundImage.jpg": "/Al-Aqwa/static/media/headerBackgroundImage.d75599a4ceec32f1d1f7.jpg",
     "static/media/customer.png": "/Al-Aqwa/static/media/customer.ea5f21ae3ce75b939611.png",
@@ -12,11 +12,11 @@
     "static/media/service.jpg": "/Al-Aqwa/static/media/service.71aea4bb3320ca1ba4af.jpg",
     "index.html": "/Al-Aqwa/index.html",
     "main.e22f943b.css.map": "/Al-Aqwa/static/css/main.e22f943b.css.map",
-    "main.a45e5355.js.map": "/Al-Aqwa/static/js/main.a45e5355.js.map",
+    "main.f50ed739.js.map": "/Al-Aqwa/static/js/main.f50ed739.js.map",
     "453.7ee4257d.chunk.js.map": "/Al-Aqwa/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e22f943b.css",
-    "static/js/main.a45e5355.js"
+    "static/js/main.f50ed739.js"
   ]
 }
